@@ -3,24 +3,17 @@ FramerBasic4kenny
 
 ### Default 값 설정
 ```
-# 레이어 디폴트 값지정
+# Framer.Defalut
 Framer.Defaults.Layer.backgroundColor = "aqua"
 Framer.Defaults.Layer.borderRadius = 10
 Framer.Defaults.Animation = 
 	curve: “spring(100,10,1)”
+	
+# Framer.Device
 Framer.Device.contentScale = 0.5
 Framer.Device.orientation = 90
 Framer.Device.background.blur = 10
 Framer.Device.deviceType = "iphone-5c-green"
-```
-
-### Color 설정 (3)
-```
-backgroundColor: "aqua"
-backgroundColor: “transparent”
-backgroundColor: "rgba(128,0,0,1)"
-backgroundColor: "#ffa000"
-
 ```
 
 ### Background Color 변경 (3)
@@ -34,6 +27,15 @@ Screen.backgroundColor = "gray"
 # 3. 레이어 활용
 BG = new BackgroundLayer
 	backgroundColor: "gray"
+```
+
+### Color 설정 (3)
+```
+backgroundColor: "aqua"
+backgroundColor: “transparent”
+backgroundColor: "rgba(128,0,0,1)"
+backgroundColor: "#ffa000"
+
 ```
 
 ### 용어 (offset)
