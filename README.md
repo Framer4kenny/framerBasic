@@ -122,10 +122,11 @@ scroll.onMove ->
 - 주석처리: 코드 앞에 # 표기
 - 한번에 주석처리: command + /
 
-Github Wiki <br>
+** Github Wiki ** <br>
 팁 정리: https://github.com/Framer4kenny/framerBasic/wiki
 <br>
-Reference <br>
+
+** Reference ** <br>
 Framer 공식 유튜브: https://www.youtube.com/channel/UCW5gUZ7lKGrAbLOkHv2xfbw <br>
 모바일 프로토타이핑 예제: https://wikibook.github.io/framer/ <br>
 프레이머 팁: https://paper.dropbox.com/doc/Framer-Tips--nKh0wLp87mROmzHfRU47s <br>
