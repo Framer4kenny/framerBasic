@@ -23,35 +23,6 @@ BG = new BackgroundLayer
 	backgroundColor: "gray"
 ```
 
-### Drag Lock
-- Drag 방향설정 (draggable.horizontal/vertical)
-```
-drag = new Layer
-drag.draggable.enabled = true
-drag.draggable.horizontal = false
-```
-
-### Scroll Lock
-- 스크롤이 지맘대로 일 때 확인 (diretionLock)
-```
-myScroll = new ScrollComponent
-myPage = new PageComponent
-  superLayer: myScroll 
-
-# 한방향으로만 스크롤 페이징되도록 제어
-myScroll.directionLock = true
-myPage.directionLock = true
-```
-- 스크롤이 지맘대로 일 때 확인 (scrollVertical/Horizontal)
-```
-pageBox = new PageComponent
-	width: Screen.width
-	height: Screen.height
-	scrollHorizontal: true
-	scrollVertical: false
-	directionLock: true
-```
-
 ### Sketch에서 Import 시 팁
 - Import 이후 스크롤
 - ScrollComponent.wrap(), Framer.Importer.load("")
