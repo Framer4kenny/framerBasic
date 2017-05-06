@@ -52,7 +52,6 @@ myPage.directionLock = true
 # 사례1)
 # Import file "tPXbanner"
 sketch = Framer.Importer.load("imported/tPXbanner@1x")
-
 # wrapping sketch content area  
 scroll = ScrollComponent.wrap(sketch.tContent)
 
@@ -60,7 +59,6 @@ scroll = ScrollComponent.wrap(sketch.tContent)
 # Import file "scrollTest"
 sketch = Framer.Importer.load("imported/scrollTest@1x")
 scrollBox = ScrollComponent.wrap sketch.scrollGroup
-
 #스크롤 
 scrollBox.scrollHorizontal = false
 scrollBox.contentInset = 
