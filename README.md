@@ -1,12 +1,12 @@
 # framerBasic
 FramerBasic4kenny
 
-### Color 설정
+### Color 설정 (3)
 ```
-backgroundColor: "rgba(128,0,0,1)"
 backgroundColor: "aqua"
-backgroundColor: "#ffa000"
 backgroundColor: “transparent”
+backgroundColor: "rgba(128,0,0,1)"
+backgroundColor: "#ffa000"
 
 ```
 
@@ -147,6 +147,6 @@ pageBox = new PageComponent
 
 
 Reference <br>
-Framer 공식 유튜브: https://www.youtube.com/channel/UCW5gUZ7lKGrAbLOkHv2xfbw
-모바일 프로토타이핑 예제: https://wikibook.github.io/framer/
-프레이머 팁: https://paper.dropbox.com/doc/Framer-Tips--nKh0wLp87mROmzHfRU47s
+Framer 공식 유튜브: https://www.youtube.com/channel/UCW5gUZ7lKGrAbLOkHv2xfbw <br>
+모바일 프로토타이핑 예제: https://wikibook.github.io/framer/ <br>
+프레이머 팁: https://paper.dropbox.com/doc/Framer-Tips--nKh0wLp87mROmzHfRU47s <br>
