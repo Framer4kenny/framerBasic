@@ -24,7 +24,7 @@ BG = new BackgroundLayer
 ```
 
 ### Drag
-- Drag 방향설정
+- Drag 방향설정 (draggable.horizontal/vertical)
 ```
 drag = new Layer
 drag.draggable.enabled = true
