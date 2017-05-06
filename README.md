@@ -85,21 +85,6 @@ scrollBox.contentInset =
 Utils.globalLayers(sketch)
 ```
 
-### Font 설정하기
-```
-labelTest = new Layer
-	backgroundColor: "transparent"
-	width: 450
-	y: Align.center
-	x: Align.center
-
-labelTest.html = "HelloWorld!"
-labelTest.style = 
-	"font-size": "2.9em"
-	"font-family": "HeveticaNeue" 
-	"color" : "gray"
-```
-
 ### Point 알아보기
 - 드래그 위치 알기 (layerStartPoint)
 ```
