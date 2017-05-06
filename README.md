@@ -85,13 +85,6 @@ scrollBox.contentInset =
 Utils.globalLayers(sketch)
 ```
 
-### Point 알아보기
-- 드래그 위치 알기 (layerStartPoint)
-```
-layerA.on Events.DragStart, ->
-	print layerA.draggable.layerStartPoint
-```
-
 ### Layer 순서변경
 - bringToFront()
 - sendToBack()
