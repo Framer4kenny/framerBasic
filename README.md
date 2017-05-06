@@ -58,33 +58,6 @@ BG = new BackgroundLayer
    - 컴퓨터용어로서의 Offset 은 상대적 이라는 의미로 사용됩니다.
    - javascript 에 offsetWidth 라는 용어도 있습니다. (상대적 너비 라는 의미)
 
-
-### Sketch에서 Import 시 팁
-- Import 이후 스크롤
-- ScrollComponent.wrap(), Framer.Importer.load("")
-```
-# 사례1)
-# Import file "tPXbanner"
-sketch = Framer.Importer.load("imported/tPXbanner@1x")
-# wrapping sketch content area  
-scroll = ScrollComponent.wrap(sketch.tContent)
-
-# 사례2)
-# Import file "scrollTest"
-sketch = Framer.Importer.load("imported/scrollTest@1x")
-scrollBox = ScrollComponent.wrap sketch.scrollGroup
-#스크롤 
-scrollBox.scrollHorizontal = false
-scrollBox.contentInset = 
-	top: 20
-	bottom: 200
-```
-- 스케치 임포트 시 이름을 변수로 사용
-```
-# sketch를 사용할 경우 레이어 이름을 변수로 바로 사용
-Utils.globalLayers(sketch)
-```
-
 ### Layer 순서변경
 - bringToFront()
 - sendToBack()
@@ -122,11 +95,11 @@ scroll.onMove ->
 - 주석처리: 코드 앞에 # 표기
 - 한번에 주석처리: command + /
 
-** Github Wiki ** <br>
+**Github Wiki** <br>
 팁 정리: https://github.com/Framer4kenny/framerBasic/wiki
 <br>
 
-** Reference ** <br>
+**Reference** <br>
 Framer 공식 유튜브: https://www.youtube.com/channel/UCW5gUZ7lKGrAbLOkHv2xfbw <br>
 모바일 프로토타이핑 예제: https://wikibook.github.io/framer/ <br>
 프레이머 팁: https://paper.dropbox.com/doc/Framer-Tips--nKh0wLp87mROmzHfRU47s <br>
