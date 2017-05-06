@@ -97,4 +97,8 @@ Framer 공식 유튜브: https://www.youtube.com/channel/UCW5gUZ7lKGrAbLOkHv2xfb
 프레이머 팁: https://paper.dropbox.com/doc/Framer-Tips--nKh0wLp87mROmzHfRU47s <br>
 
 **Private Proj** <br>
-3D map: http://patrykadas.me/  https://dribbble.com/shots/3464755-3d-Map-and-Orientation-Events
+3D map: 
+http://patrykadas.me/  
+https://dribbble.com/shots/3464755-3d-Map-and-Orientation-Events
+https://dribbble.com/shots/3452078-3d-map-for-Framer-mapbox
+https://framer.cloud/JqqON
