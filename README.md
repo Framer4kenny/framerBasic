@@ -23,6 +23,12 @@ BG = new BackgroundLayer
 	backgroundColor: "gray"
 ```
 
+### 용어 (offset)
+#offset
+- 컴퓨터용어로서의 Offset 은 상대적 이라는 의미로 사용됩니다.
+- javascript 에 offsetWidth 라는 용어도 있습니다. (상대적 너비 라는 의미)
+
+
 ### Sketch에서 Import 시 팁
 - Import 이후 스크롤
 - ScrollComponent.wrap(), Framer.Importer.load("")
