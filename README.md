@@ -14,23 +14,6 @@ Framer.Device.background.blur = 10
 Framer.Device.deviceType = "iphone-5c-green"
 ```
 
-### this = @
-#this의 대체 @
-```
-layer = new Layer
-layer.onClick (layer,event) ->
-	@animate
-		properties:
-			x: 100
-```
-
-### 레이어 한번에 일괄적용 (for ~in)
-```
-#한번에 레이어 적용하기 for ~ in
-for layer in Framer.CurrentContext.layers
-	layer.y += 100
-```
-
 ### Color 설정 (3)
 ```
 backgroundColor: "aqua"
@@ -65,6 +48,23 @@ BG = new BackgroundLayer
 - placeBefore()
 	* 레이어의 부모관계가 다른 경우 위 코드로 인덱스를 변경할 수 없다.
 
+### this = @
+#this의 대체 @
+```
+layer = new Layer
+layer.onClick (layer,event) ->
+	@animate
+		properties:
+			x: 100
+```
+
+### 레이어 한번에 일괄적용 (for ~in)
+```
+#한번에 레이어 적용하기 for ~ in
+for layer in Framer.CurrentContext.layers
+	layer.y += 100
+```
+
 ### Event
 - Event 설정
 ```
@@ -80,15 +80,6 @@ toon.on Events.Click, ->
 # 아래는 Framer module파일 구성
 keyboardModule = require "keyboard"
 keyboardModule.myFunction()
-```
-
-### Modulate 
-- 스크롤 시 배너 이동
-- 모듈레이트 ()안에는 1)움직임1, 2)움직임1의 범위, 3) 움직임 1에 반응하는 변수의 범위 순으로 입력
-```
-scroll.onMove -> 
-# 	print scroll.scrollY
-	sketch.banner.y = Utils.modulate(scroll.scrollY, [0,500],[635,685],true)  
 ```
 
 ### 주석 달기
