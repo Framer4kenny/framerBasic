@@ -67,7 +67,7 @@ scrollBox.contentInset =
 	top: 20
 	bottom: 200
 ```
-- 스케치 임포트 시 이름을 변수로 바로 
+- 스케치 임포트 시 이름을 변수로 사용
 ```
 # sketch를 사용할 경우 레이어 이름을 변수로 바로 사용
 Utils.globalLayers(sketch)
