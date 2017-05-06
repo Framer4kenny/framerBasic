@@ -1,6 +1,19 @@
 # framerBasic
 FramerBasic4kenny
 
+### Default 값 설정
+```
+# 레이어 디폴트 값지정
+Framer.Defaults.Layer.backgroundColor = "aqua"
+Framer.Defaults.Layer.borderRadius = 10
+Framer.Defaults.Animation = 
+	curve: “spring(100,10,1)”
+Framer.Device.contentScale = 0.5
+Framer.Device.orientation = 90
+Framer.Device.background.blur = 10
+Framer.Device.deviceType = "iphone-5c-green"
+```
+
 ### Color 설정 (3)
 ```
 backgroundColor: "aqua"
@@ -90,21 +103,6 @@ layerA.on Events.DragStart, ->
 # 이벤트 설정 아래 2가지는 같은 뜻
 toon.onClick (event, layer) ->
 toon.on Events.Click, ->
-```
-
-### Animation 
-- Animation Looping (Utils.interval)
-```
-layerA = new Layer
-layerA.center()
-
-layerA.states.add
-	rotated:
-		rotation:90
-		borderRadius: 100
-
-Utils.interval 2, ->
-	layerA.states.next()
 ```
 
 ### Module 불러오기
