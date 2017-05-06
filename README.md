@@ -16,7 +16,7 @@ Framer.Device.background.blur = 10
 Framer.Device.deviceType = "iphone-5c-green"
 ```
 
-### (Background) Color 변경 
+### Color 설정 
 - Background Color
 ```
 # 1. 디바이스 배경 활용
@@ -37,7 +37,7 @@ backgroundColor: "#ffa000"
 
 ```
 
-### 기타 다양한 TIP
+### 기타  TIP
 - mouse scroll
 ```
 #mouse-scroll
