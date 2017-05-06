@@ -1,4 +1,4 @@
-# framerBasic
+# framerBasic Tip
 FramerBasic4kenny
 
 ### Default 값 설정
@@ -12,6 +12,23 @@ Framer.Device.contentScale = 0.5
 Framer.Device.orientation = 90
 Framer.Device.background.blur = 10
 Framer.Device.deviceType = "iphone-5c-green"
+```
+
+### this = @
+#this의 대체 @
+```
+layer = new Layer
+layer.onClick (layer,event) ->
+	@animate
+		properties:
+			x: 100
+```
+
+### 레이어 한번에 일괄적용 (for ~in)
+```
+#한번에 레이어 적용하기 for ~ in
+for layer in Framer.CurrentContext.layers
+	layer.y += 100
 ```
 
 ### Color 설정 (3)
