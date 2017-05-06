@@ -10,10 +10,15 @@ backgroundColor: “transparent”
 
 ```
 
-### Background Color 변경 방법 2가지
+### Background Color 변경 (3)
 ```
+# 1. 디바이스 배경 활용
+Framer.Device.background.backgroundColor = "tomato"
+
+# 2. Screen이용
 Screen.backgroundColor = "gray"
 
+# 3. 레이어 활용
 BG = new BackgroundLayer
 	backgroundColor: "gray"
 ```
@@ -26,17 +31,49 @@ drag.draggable.enabled = true
 drag.draggable.horizontal = false
 ```
 
+### Event
+- Event 설정
+```
+# 이벤트 설정 아래 2가지는 같은 뜻
+toon.onClick (event, layer) ->
+toon.on Events.Click, ->
+```
+
+### Scroll Lock
+- 제대로 스크롤이 되지 않을 때 확인 (diretionLock)
+```
+myScroll = new ScrollComponent
+myPage = new PageComponent
+  superLayer: myScroll 
+
+# 한방향으로만 스크롤 페이징되도록 제어
+myScroll.directionLock = true
+myPage.directionLock = true
+```
 
 ### Sketch에서 Import 시 팁
 - Import 이후 스크롤
 - ScrollComponent.wrap(), Framer.Importer.load("")
 ```
+# 사례1)
 # Import file "tPXbanner"
 sketch = Framer.Importer.load("imported/tPXbanner@1x")
 
 # wrapping sketch content area  
 scroll = ScrollComponent.wrap(sketch.tContent)
+
+# 사례2)
+# Import file "scrollTest"
+sketch = Framer.Importer.load("imported/scrollTest@1x")
+scrollBox = ScrollComponent.wrap sketch.scrollGroup
+
+#스크롤 
+scrollBox.scrollHorizontal = false
+scrollBox.contentInset = 
+	top: 20
+	bottom: 200
 ```
+
 
 
 ### Font 설정하기
