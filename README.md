@@ -1,7 +1,11 @@
 # framerBasic
 FramerBasic4kenny
 
-### Scroll lock 
+### 주석 달기
+- 주석처리: 코드 앞에 # 표기
+- 한번에 주석처리: command + /
+
+### 스크롤 팁
 ```
 pageBox = new PageComponent
 	width: Screen.width
