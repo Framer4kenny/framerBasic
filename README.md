@@ -31,14 +31,6 @@ drag.draggable.enabled = true
 drag.draggable.horizontal = false
 ```
 
-### Event
-- Event 설정
-```
-# 이벤트 설정 아래 2가지는 같은 뜻
-toon.onClick (event, layer) ->
-toon.on Events.Click, ->
-```
-
 ### Scroll Lock
 - 제대로 스크롤이 되지 않을 때 확인 (diretionLock)
 ```
@@ -50,6 +42,8 @@ myPage = new PageComponent
 myScroll.directionLock = true
 myPage.directionLock = true
 ```
+
+
 
 ### Sketch에서 Import 시 팁
 - Import 이후 스크롤
@@ -99,6 +93,14 @@ labelTest.style =
 ```
 layerA.on Events.DragStart, ->
 	print layerA.draggable.layerStartPoint
+```
+
+### Event
+- Event 설정
+```
+# 이벤트 설정 아래 2가지는 같은 뜻
+toon.onClick (event, layer) ->
+toon.on Events.Click, ->
 ```
 
 ### Animation 
