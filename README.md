@@ -23,7 +23,7 @@ BG = new BackgroundLayer
 	backgroundColor: "gray"
 ```
 
-### Drag
+### Drag Lock
 - Drag 방향설정 (draggable.horizontal/vertical)
 ```
 drag = new Layer
@@ -32,7 +32,7 @@ drag.draggable.horizontal = false
 ```
 
 ### Scroll Lock
-- 제대로 스크롤이 되지 않을 때 확인 (diretionLock)
+- 스크롤이 지맘대로 일 때 확인 (diretionLock)
 ```
 myScroll = new ScrollComponent
 myPage = new PageComponent
@@ -42,8 +42,15 @@ myPage = new PageComponent
 myScroll.directionLock = true
 myPage.directionLock = true
 ```
-
-
+- 스크롤이 지맘대로 일 때 확인 (scrollVertical/Horizontal)
+```
+pageBox = new PageComponent
+	width: Screen.width
+	height: Screen.height
+	scrollHorizontal: true
+	scrollVertical: false
+	directionLock: true
+```
 
 ### Sketch에서 Import 시 팁
 - Import 이후 스크롤
@@ -137,16 +144,6 @@ scroll.onMove ->
 ### 주석 달기
 - 주석처리: 코드 앞에 # 표기
 - 한번에 주석처리: command + /
-
-### 스크롤 팁
-```
-pageBox = new PageComponent
-	width: Screen.width
-	height: Screen.height
-	scrollHorizontal: true
-	scrollVertical: false
-	directionLock: true
-```
 
 
 Reference <br>
