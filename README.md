@@ -44,10 +44,7 @@ backgroundColor: "#ffa000"
    - javascript 에 offsetWidth 라는 용어도 있습니다. (상대적 너비 라는 의미)
 
 ### Layer 순서변경
-- bringToFront()
-- sendToBack()
-- placeBehind()
-- placeBefore()
+- bringToFront() / sendToBack() / placeBehind() / placeBefore()
 	* 레이어의 부모관계가 다른 경우 위 코드로 인덱스를 변경할 수 없다.
 
 ### this = @
