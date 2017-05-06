@@ -48,8 +48,8 @@ backgroundColor: "#ffa000"
 	* 레이어의 부모관계가 다른 경우 위 코드로 인덱스를 변경할 수 없다.
 
 ### this = @
-#this의 대체 @
 ```
+#this의 대체 @
 layer = new Layer
 layer.onClick (layer,event) ->
 	@animate
