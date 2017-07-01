@@ -38,6 +38,11 @@ backgroundColor: "#ffa000"
 ```
 
 ### 기타  TIP
+- reset
+```
+location.reload()
+```
+
 - mouse scroll
 ```
 #mouse-scroll
