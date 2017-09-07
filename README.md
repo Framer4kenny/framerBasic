@@ -65,6 +65,9 @@ layer.onClick (layer,event) ->
    - 컴퓨터용어로서의 Offset 은 상대적 이라는 의미로 사용됩니다.
    - javascript 에 offsetWidth 라는 용어도 있습니다. (상대적 너비 라는 의미)
 
+card.onDragMove (event) ->
+	print event.offset.y
+
 - 레이어 한번에 일괄적용 (for ~in)
 ```
 #한번에 레이어 적용하기 for ~ in
